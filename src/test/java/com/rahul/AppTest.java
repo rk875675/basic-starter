@@ -7,10 +7,8 @@ public class AppTest {
 
     @Test 
     public void youKnowRandomName(){
-        assertEquals("Hello World", App.buildGreeting(new String[]{}));
+        assertEquals("Hello World!", App.buildGreeting(new String[]{}));
     }
-
-
 
     @Test
     public void defaultGreeting_whenNoArgs() {
